@@ -1,16 +1,21 @@
-# --- DATASET / GENERATED OUTPUT (DON'T COMMIT) ---
-data/
-*.mp4
-*.mkv
-**/Labels-v2.json
-**/*.json
+# --- data (DO NOT COMMIT) ---
+data/raw/
+data/clips/
+data/**/SoccerNet*/
+**/*.mkv
+**/*.mp4
+**/*.avi
+**/*.mov
+**/Labels-*.json
 
-# --- PYTHON / VENV ---
-.venv/
+# optional: big artifacts
+**/*.zip
+**/*.7z
+**/*.tar
+**/*.rar
+
+# python
 __pycache__/
 *.pyc
-
-# --- OS / EDITORS ---
-.DS_Store
-Thumbs.db
+.venv/
 .vscode/
