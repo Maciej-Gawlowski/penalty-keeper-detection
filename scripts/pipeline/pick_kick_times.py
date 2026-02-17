@@ -2,7 +2,7 @@ from pathlib import Path
 import csv
 import cv2
 
-CLIPS_DIR = Path("data/clips/penalties")
+CLIPS_DIR = Path("data/clips/penalties_720p")
 OUT_CSV = Path("data/meta/kick_times.csv")
 
 def list_clips():
