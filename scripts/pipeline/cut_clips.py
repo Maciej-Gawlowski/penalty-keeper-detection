@@ -53,7 +53,7 @@ def main():
                 continue
 
             game_dir = Path(labels_file).parent
-            video_name = "1_224p.mkv" if half == 1 else "2_224p.mkv"
+            video_name = "1_720p.mkv" if half == 1 else "2_720p.mkv"
             video_path = game_dir / video_name
 
             if not video_path.exists():
